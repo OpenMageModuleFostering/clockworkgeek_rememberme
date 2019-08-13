@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+    <name>Clockworkgeek_Rememberme</name>
+    <version>0.4.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Add a "remember me" option to login forms.</summary>
+    <description>Add a "remember me" option to login forms. Overrides default forms with those in "design/frontend/base/default/template/rememberme/form".</description>
+    <notes>Two new options have been added in System &gt; Configuration &gt; Customer Configuration &gt; Remember Me.&#xD;
+</notes>
+    <authors><author><name>clockworkgeek</name><user>nonproffessional</user><email>nonproffessional@clockworkgeek.com</email></author></authors>
+    <date>2014-05-13</date>
+    <time>11:51:26</time>
+    <contents><target name="magecommunity"><dir name="Clockworkgeek"><dir name="Rememberme"><dir name="Model"><file name="Cookie.php" hash="9b292945fb1133b52c4b239b48fdebab"/></dir><dir name="etc"><file name="config.xml" hash="6a3cf0df130743da23cd00cfc45e390b"/><file name="system.xml" hash="7302348f852d9db069e3336a9c7f20ee"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="rememberme.xml" hash="d9be2b5bea426b07ee54c83477ff024a"/></dir><dir name="template"><dir name="rememberme"><dir name="form"><file name="login.phtml" hash="36fe9e1aab4deeac1a4f7589edf894a6"/><file name="mini.login.phtml" hash="0b239b0ece858335fa0708304e027217"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Clockworkgeek_Rememberme.xml" hash="527fa1b6cafaa8c51284db22701526b8"/></dir></target><target name="magelocale"><dir name="en_US"><file name="Clockworkgeek_Rememberme.csv" hash="5346ff4284ea8a4a8f504d1668981e60"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
