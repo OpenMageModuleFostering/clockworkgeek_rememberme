@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>Clockworkgeek_Rememberme</name>
-    <version>0.5.0</version>
+    <version>0.5.2</version>
     <stability>stable</stability>
-    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <license>OSL-3.0</license>
     <channel>community</channel>
     <extends/>
-    <summary>Add a "remember me" option to login forms.</summary>
-    <description>Add a "remember me" option to login forms. Overrides default forms with those in "design/frontend/base/default/template/rememberme/".</description>
-    <notes>Improved compatibility with all versions and Mage_Captcha and Mage_Persistent modules.</notes>
-    <authors><author><name>clockworkgeek</name><user>nonproffessional</user><email>nonproffessional@clockworkgeek.com</email></author></authors>
-    <date>2014-11-07</date>
-    <time>17:19:37</time>
-    <contents><target name="magecommunity"><dir name="Clockworkgeek"><dir name="Loginformfallback"><dir name="etc"><file name="config.xml" hash="2578ddb7451310a1b36ee2be2d9fa1c2"/></dir></dir><dir name="Rememberme"><dir name="Model"><file name="Cookie.php" hash="9b292945fb1133b52c4b239b48fdebab"/></dir><dir name="etc"><file name="config.xml" hash="d91aec4705b1f4e8d6b934568517aee2"/><file name="system.xml" hash="7302348f852d9db069e3336a9c7f20ee"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="loginformfallback.xml" hash="a948aeb2b7ba695ae3ec8d63436547f1"/><file name="rememberme.xml" hash="83de2ac36de0175757669cde33414982"/></dir><dir name="template"><dir name="loginformfallback"><dir name="checkout"><file name="login.phtml" hash="84561620d67b8019b4eb86db259b4148"/></dir><dir name="customer"><file name="login.phtml" hash="779575f37b9f49fff8868c8cab284ac1"/></dir></dir><dir name="rememberme"><file name="checkbox.phtml" hash="2d4eb0c8b5455e435162d73ac40ab5be"/><dir name="form"><file name="mini.login.phtml" hash="0b239b0ece858335fa0708304e027217"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Clockworkgeek_Rememberme.xml" hash="4615cfb14e0d8f0296e8695e86bc7564"/></dir></target><target name="magelocale"><dir name="en_US"><file name="Clockworkgeek_Rememberme.csv" hash="5346ff4284ea8a4a8f504d1668981e60"/></dir></target></contents>
+    <summary>Adds a 'remember me' option to Magento login forms.</summary>
+    <description/>
+    <notes>Minor bug fixes</notes>
+    <authors><author><name>Daniel Deady</name><user>daniel</user><email>daniel@clockworkgeek.com</email></author></authors>
+    <date>2015-02-27</date>
+    <time>12:19:48</time>
+    <contents><target name="magecommunity"><dir name="Clockworkgeek"><dir name="Loginformfallback"><dir name="etc"><file name="config.xml" hash="2578ddb7451310a1b36ee2be2d9fa1c2"/></dir></dir><dir name="Rememberme"><dir name="Model"><file name="Cookie.php" hash="8b152ed23b84a40f54aaa8316b8ee542"/><file name="Observer.php" hash="63780becb3380f56850efe1aca0b768e"/></dir><dir name="etc"><file name="config.xml" hash="789e8fe29f723fc542778902d34e277c"/><file name="system.xml" hash="7302348f852d9db069e3336a9c7f20ee"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="loginformfallback.xml" hash="a948aeb2b7ba695ae3ec8d63436547f1"/><file name="rememberme.xml" hash="83de2ac36de0175757669cde33414982"/></dir><dir name="template"><dir name="loginformfallback"><dir name="checkout"><file name="login.phtml" hash="84561620d67b8019b4eb86db259b4148"/></dir><dir name="customer"><file name="login.phtml" hash="779575f37b9f49fff8868c8cab284ac1"/></dir></dir><dir name="rememberme"><file name="checkbox.phtml" hash="2d4eb0c8b5455e435162d73ac40ab5be"/><dir name="form"><file name="mini.login.phtml" hash="0b239b0ece858335fa0708304e027217"/></dir></dir></dir></dir></dir><dir name="rwd"><dir name="default"><dir name="template"><dir name="rememberme"><file name="checkbox.phtml" hash="a8d81237d312626c02af7af023355b6f"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Clockworkgeek_Rememberme.xml" hash="4615cfb14e0d8f0296e8695e86bc7564"/></dir></target><target name="magelocale"><dir name="en_US"><file name="Clockworkgeek_Rememberme.csv" hash="5346ff4284ea8a4a8f504d1668981e60"/></dir></target><target name="mageweb"><dir name="var"><dir name="connect"><file name="Clockworkgeek_Rememberme.xml" hash="8d9f51925f65b0492b3e032a5b6657a2"/></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
