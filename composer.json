@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Clockworkgeek_Rememberme",
+    "name": "OpenMageModuleFostering\/Clockworkgeek_Rememberme",
     "type": "magento-module",
     "license": "OSL-3.0",
     "homepage": "",
     "description": "Adds a 'remember me' option to Magento login forms.",
     "authors": [
-    {
-        "name": "Daniel Deady",
-        "email": "daniel@clockworkgeek.com"
-    }
-],
+        {
+            "name": "Daniel Deady",
+            "email": "daniel@clockworkgeek.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
